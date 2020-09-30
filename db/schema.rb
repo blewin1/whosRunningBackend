@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_30_203023) do
+ActiveRecord::Schema.define(version: 2020_09_30_220541) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,12 +20,13 @@ ActiveRecord::Schema.define(version: 2020_09_30_203023) do
     t.text "image_url"
     t.string "party_affiliation"
     t.text "campaign_website"
-    t.string "social"
     t.text "quote"
     t.string "position"
     t.text "bio"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "facebook"
+    t.string "twitter"
   end
 
   create_table "favorites", force: :cascade do |t|
