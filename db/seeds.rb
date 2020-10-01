@@ -7,8 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Candidate.create([
-    
-
     {
         position: 'U.S. Senate New Hampshire', 
         name: 'Jeanne Shaheen', 
@@ -100,7 +98,7 @@ Candidate.create([
         twitter: 'https://www.twitter.com/Jorgensen4POTUS', 
         campaign_website: 'https://jo20.com/'
         },
-        { 	position: 'Congress U.S. House New Hampshire District 2', 
+        { 	position: 'U.S. Congress House New Hampshire', 
         name: 'Annie Kuster', 
         party_affiliation: 'Democrat', 
         bio: 'Kuster was born and raised in Concord, New Hampshire. She earned her bachelor\'s degree from Dartmouth College in 1978 and her law degree from Georgetown University Law Center in 1984. She has served on the Board of Trustees of many community organizations, including the New Hampshire Charitable Foundation, the Capitol Center for the Arts and Child and Family Services of New Hampshire. She is the founder of the Women\'s Fund of New Hampshire.', 
@@ -110,7 +108,7 @@ Candidate.create([
         twitter: 'https://www.twitter.com/AnnMcLaneKuster', 
         campaign_website: 'http://www.kusterforcongress.com/'
         },
-        { 	position: 'Congress U.S. House New Hampshire District 2', 
+        { 	position: 'U.S. Congress House New Hampshire', 
         name: 'Steve Negron', 
         party_affiliation: 'Republican', 
         bio: 'Negron (Republican Party) was a member of the New Hampshire House of Representatives, representing Hillsborough 32. He assumed office in 2016. He left office on December 4, 2018. Negron was a 2018 Republican candidate for New Hampshire\'s 2nd Congressional District in the U.S. House. He lost the general election on November 6, 2018, after advancing from the primary on September 11, 2018.', 
@@ -120,7 +118,7 @@ Candidate.create([
         twitter: 'https://www.twitter.com/SteveNegronNH', 
         campaign_website: 'https://negron4congress.com/'
         },
-        { 	position: 'Congress U.S. House New Hampshire District 2', 
+        { 	position: 'U.S. Congress House New Hampshire', 
         name: 'Andrew Olding', 
         party_affiliation: 'Libertarian', 
         bio: 'Andrew Olding (Libertarian Party) (also known as AJ) is running for election to the U.S. House to represent New Hampshire\'s 2nd Congressional District. He is on the ballot in the general election on November 3, 2020.', 
@@ -129,7 +127,7 @@ Candidate.create([
         facebook: 'https://www.facebook.com/Andrew-J-Olding-for-Congress-NH-2-108671004010728/', 
         twitter: 'https://www.twitter.com/AndrewOlding', 
         },
-        { 	position: 'New Hampshire State Senate District 5', 
+        { 	position: 'New Hampshire State Senate', 
         name: 'Suzanne Prentiss', 
         party_affiliation: 'Democrat', 
         bio: 'Suzanne Prentiss (Democratic Party) is running for election to the New Hampshire State Senate to represent District 5. Prentiss is on the ballot in the general election on November 3, 2020. Prentiss advanced from the Democratic primary on September 8, 2020.', 
@@ -139,23 +137,23 @@ Candidate.create([
         twitter: 'https://twitter.com/hashtag/prentissfornhsenate', 
         campaign_website: 'https://www.prentissfornhsenate.com/'
         },
-        { 	position: 'New Hampshire State Senate District 5', 
+        { 	position: 'New Hampshire State Senate', 
         name: 'Timothy O’Hearne', 
         party_affiliation: 'Republican', 
         bio: 'Timothy O\'Hearne (Republican Party) is running for election to the New Hampshire State Senate to represent District 5. O\'Hearne is on the ballot in the general election on November 3, 2020. O\'Hearne advanced from the Republican primary on September 8, 2020.', 
         image_url: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', 
-
+​
         },
-        { 	position: 'New Hampshire House of Representatives Grafton 12', 
+        { 	position: 'New Hampshire House of Representatives', 
         name: 'Sharon Nordgren', 
         party_affiliation: 'Democrat', 
         bio: 'Nordgren earned her A.A. from the University of Minnesota. Her professional experience includes volunteer work, and serving as chair and member of the Hanover Board of Selectmen', 
         image_url: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Sharon_Nordgren.jpg', 
-        Facebook: 'https://www.facebook.com/sharon.nordgren.5', 
-        Twitter: 'https://www.twitter.com/snordgren23', 
+        facebook: 'https://www.facebook.com/sharon.nordgren.5', 
+        twitter: 'https://www.twitter.com/snordgren23', 
         campaign_website: 'http://gencourt.state.nh.us/house/members/member.aspx?member=373514'
         },
-        { 	position: 'New Hampshire House of Representatives Grafton 12', 
+        { 	position: 'New Hampshire House of Representatives', 
         name: 'Mary Hakken-Phillips', 
         party_affiliation: 'Democrat', 
         bio: 'Mary Hakken-Phillips (Democratic Party) is running for election to the New Hampshire House of Representatives to represent Grafton 12. She is on the ballot in the general election on November 3, 2020. She advanced from the Democratic primary on September 8, 2020.', 
@@ -164,21 +162,21 @@ Candidate.create([
         facebook: 'https://www.facebook.com/mary.hakkenphillips.10', 
         twitter: 'https://www.twitter.com/mhp4nhrep', 
         },
-        { 	position: 'New Hampshire House of Representatives Grafton 12', 
+        { 	position: 'New Hampshire House of Representatives', 
         name: 'Russell Muirhead', 
         party_affiliation: 'Democrat', 
         bio: 'Russell Muirhead is the Robert Clements Professor of Democracy and Politics at Dartmouth College. He is the author of A Lot of People Are Saying: The New Conspiracism and the Assault on Democracy (Princeton 2020), which charts the way power-seekers marshal conspiratorial fabrications to elevate themselves and at the same time degrade democratic institutions. Muirhead has also written books on party polarization in American politics (The Promise of Party, 2014), and the moral meaning of work in democracy (Just Work, 2004). He is an veteran moderator of Aspen seminars. Before Dartmouth, Muirhead taught at Harvard, Williams College, and the University of Texas at Austin.', 
         quote: 'Better partisanship is partisanship that connects the desire to win office with principles and ideas, especially principles that make that desire something noble. Low partisanship is just the desire to win, the desire to rule, the desire to have power. High partisanship is much more motivated by the desire to do something good, where good is defined by some kind of principle or set of principles. Better partisanship is principled partisanship.', 
         image_url: 'https://news.dartmouth.edu/sites/dart_news.prod/files/styles/slide/public/news/images/20180530_muirhead_eb_067-810.jpg?itok=6IqrHsnQ',
         },
-        { 	position: 'New Hampshire House of Representatives Grafton 12', 
+        { 	position: 'New Hampshire House of Representatives', 
         name: 'James M. Murphy', 
         party_affiliation: 'Democrat', 
         bio: 'James M. Murphy (Democratic Party) is running for election to the New Hampshire House of Representatives to represent Grafton 12. Murphy is on the ballot in the general election on November 3, 2020. Murphy advanced from the Democratic primary on September 8, 2020. ', 
         quote: 'We’ve got to do stuff that’s lasting in nature and I’m tired of basically kicking it down (the road). We have to have a vision for 10, 20, 50 years from now.”',
         image_url: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JamesMurphy.png'
         },
-        { 	position: 'New Hampshire Executive Council District 1', 
+        { 	position: 'New Hampshire Executive Council', 
         name: 'Michael Cryans', 
         party_affiliation: 'Democrat', 
         bio: 'Michael Cryans (Democratic Party) is a member of the New Hampshire Executive Council, representing District 1. He assumed office on January 2, 2019. His current term ends on January 6, 2021. Cryans (Democratic Party) is running for re-election to the New Hampshire Executive Council to represent District 1. He is on the ballot in the general election on November 3, 2020. He advanced from the Democratic primary on September 8, 2020.', 
@@ -188,7 +186,7 @@ Candidate.create([
         twitter: 'https://www.twitter.com/mikecryans', 
         campaign_website: 'https://mikecryans.org/'
         },
-        { 	position: 'New Hampshire Executive Council District 1', 
+        { 	position: 'New Hampshire Executive Council', 
         name: 'Joseph Kenneys', 
         party_affiliation: 'Republican', 
         bio: 'Joseph Kenney (Republican Party) is running for election to the New Hampshire Executive Council to represent District 1. Kenney is on the ballot in the general election on November 3, 2020. Kenney advanced from the Republican primary on September 8, 2020. Kenney (Republican Party) was a member of the New Hampshire Executive Council, representing District 1. Kenney assumed office on March 26, 2014. Kenney left office on January 2, 2019.Kenney ran for re-election in 2016.[1] He won re-election on November 8, 2016.', 
@@ -198,6 +196,5 @@ Candidate.create([
         twitter: 'https://twitter.com/josephkenneynh?lang=en', 
         campaign_website: 'http://www.kenneyfornh.com/'
         }
-        
-        
+
 ])
