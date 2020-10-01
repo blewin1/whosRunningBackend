@@ -13,6 +13,16 @@ class UsersController < ApplicationController
     render json: @user.to_json(include: :candidates)
   end
 
+  # POST /login
+  def login
+    @user = User.find_by(email: params[:user][:email])
+    if @user
+      render json: @user.to_json(include: :candidates)
+    else
+      render json: {status: 401, message: "User not found"}
+    end
+  end
+
   # POST /users
   def create
     @user = User.new(user_params)
