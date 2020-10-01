@@ -13,7 +13,7 @@ class UsersController < ApplicationController
     render json: @user.to_json(include: :candidates)
   end
 
-  # POST /login
+  # POST /users/login
   def login
     @user = User.find_by(email: params[:user][:email])
     if @user
